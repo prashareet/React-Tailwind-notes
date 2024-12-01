@@ -1,0 +1,4 @@
+Plan for the day : 
+1. Learn A bit of frontend React and tailwind and build a simple good looking website.
+ - 45 mins
+2. Learn about authentication (backend ) - Harkirat's lecture. 

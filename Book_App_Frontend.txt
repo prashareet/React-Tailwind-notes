@@ -1,0 +1,34 @@
+Learnings : 
+How to setup a React and Tailwind project.
+Theme
+The theme key is where you define the customizations for your Tailwind CSS project.
+
+extend
+The extend property allows you to add or modify specific parts of the default
+Tailwind configuration without completely overriding them.
+For eg: {
+    theme: {
+    extend: {
+      colors : {
+        primary : "#1182c5",
+        secondary : "#2aa6df",
+      },
+      container : {
+        center : true,
+        padding : {
+          DEFAULT : "1rem",
+          sm: "3rem",        
+        },
+      },
+    },
+  },
+}
+Colors
+The colors key inside extend is used to define custom colors for your project.
+
+What this does:
+Adds two custom color options to your Tailwind theme: primary and secondary.
+Now, you can use these colors in your CSS classes.
+
+Custom Colors: Simplifies maintaining a consistent color palette across your project.
+Custom Container: Provides a flexible and centered layout with responsive padding.
